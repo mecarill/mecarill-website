@@ -6,8 +6,8 @@ bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computational Linguisticsa
+  - Information Retrievala
 social:
   - icon: envelope
     icon_pack: fas
@@ -35,7 +35,7 @@ organizations:
     url: https://www.stanford.edu/
 education:
   courses:
-    - course: PhD in Artificial Intelligence
+    - course: PhD in Artificial Intelligenceaa
       institution: Stanford University
       year: 2012
     - course: MEng in Artificial Intelligence
