@@ -1,7 +1,7 @@
 ---
 title: Mikhail Kennerley
 role: PhD Student in Computer Vision
-avatar_filename: avatar.jpg
+avatar_filename: 78baa2a2-b687-4531-8600-d35eda102d18.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
