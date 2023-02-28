@@ -1,6 +1,7 @@
 ---
 title: Mikhail Kennerley
 role: Professor of Artificial Intelligence
+avatar_filename: img-20201231-wa0001.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
