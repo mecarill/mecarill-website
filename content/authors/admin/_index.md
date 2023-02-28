@@ -3,7 +3,7 @@
 title: Mikhail Kennerley
 
 # Full name (for SEO)
-first_name: AliMikhailce
+first_name: Mikhail
 last_name: Kennerley
 
 # Is this the primary user of the site?
@@ -29,15 +29,15 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Computer Vision
+      institution: National University of Singapore, ECE
+      year: 2025
+    - course: MTech in Intelligent Systems
+      institution: National University of Singapore, ISS
+      year: 2022
+    - course: BEng in Mechatronics
+      institution: Singapore Institute of Technology (UofG)
+      year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
