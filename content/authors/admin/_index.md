@@ -1,7 +1,7 @@
 ---
 title: Mikhail Kennerley
 role: PhD Student in Computer Vision
-avatar_filename: 78baa2a2-b687-4531-8600-d35eda102d18.jpg
+avatar_filename: avatar.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
@@ -53,5 +53,5 @@ first_name: Alice
 email: ""
 ---
 
-j﻿
+I am currently a PhD student in the National University of Singapore under the supervision of Professor Robby Tan . I obtained my Bachelors of Engineering (Mechatronics) from Singapore Institute of Technology/University of Glasgow in 2017 and a Masters of Technology (Intelligent Systems) from NUS-ISS in 2022. My research interest is in Computer Vision, with a focus on vision in adverse conditions such as night-time and rain.
 {style="text-align: justify;"}
