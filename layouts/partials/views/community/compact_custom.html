@@ -58,8 +58,8 @@
         {{ end }}
       </div>
       {{ end }}
-      {{ if $item.Params.publication_short }}
-            <div> {{- $item.Params.publication_short | markdownify -}} </div>
+      {{ if $item.Params.publication }}
+            <div> {{- $item.Params.publication | markdownify -}} </div>
         {{ end }}
       {{ if and $show_authors_only $item.Params.authors }}
       <div>
