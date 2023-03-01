@@ -2,6 +2,7 @@
 
 {{/* Dynamic view adjusts to content type. */}}
 {{ $show_authors_only := false }}{{/* Show authors only or full metadata? */}}
+{{ $show_pub := false }}{{/* Show authors only or full metadata? */}}
 {{ $link := $item.RelPermalink }}
 {{ $target := "" }}
 {{ if $item.Params.external_link }}
@@ -11,7 +12,8 @@
 {{ if eq $item.Type "event" }}
   {{ $show_authors_only = true }}
 {{ else if eq $item.Type "publication" }}
-  {{ $show_authors_only = true }}
+{{ $show_authors_only = true }}
+{{ $show_pub = true }}
 {{ else if eq $item.Type "project" }}
   {{ $show_authors_only = true }}
 {{ end }}
@@ -60,6 +62,11 @@
       {{ if and $show_authors_only $item.Params.authors }}
       <div>
         {{ partial "page_metadata_authors" $item }}
+        {{ if $item.Params.publication_short }}
+            {{- $item.Params.publication_short | markdownify -}},
+        {{ else if $item.Params.publication }}
+            {{- $item.Params.publication | markdownify -}},
+        {{ end }}
       </div>
       {{ else if not $show_authors_only }}
         {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
