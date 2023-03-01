@@ -11,7 +11,7 @@ weight: 80
 
 active: true
 
-title: Featured Publications
+title: Publications
 subtitle: ''
 
 content:
