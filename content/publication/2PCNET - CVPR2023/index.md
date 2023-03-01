@@ -28,8 +28,8 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *The Conference on Computer Vision and Pattern Recognition*
-publication_short: In *CVPR*
+publication: *The Conference on Computer Vision and Pattern Recognition (CVPR) 2023*
+publication_short: *CVPR (2023)*
 
 abstract: Object detection at night is a challenging problem, particularly when the night image annotations are not assumed to be available. A few domain adaptation methods attempt to address the problem, and achieve state-of-the-art results by using the student-teacher framework. Unfortunately, these methods still suffer from false-positive error propagation stemming from the teacher’s wrong predictions, particularly for small scale objects and objects in low-light regions. To address this problem, we present 2PCNet, a twophase consistency unsupervised domain adaptation (UDA) network for nighttime object detection. Our 2PCNet employs high-confidence bounding-box predictions from the teacher in the first phase, and appends them to the student’s region proposals to be reevaluated by the teacher in the second phase, ensuring a mix of high and low confidence pseudo-labels. Night images and pseudo-labels are further scaled-down when used as an input to the student. This allows the student to have stronger small-scale pseudo-labels from the teacher, since the teacher generates the predictions based on the original full-scale image. Moreover, to mitigate errors stemming from objects in low-light regions and other night related attributes, we propose NightAug, which provides random night specific augmentations to the labelled daytime images, so that they can be closer to night images. Night specific augmentations include the addition of glare, blur, and noise to mimic the conditions of night images. Experiments on the publicly available BDD100K and SHIFT datasets demonstrate that our method achieves superior results to the state-of-the-art (+20%) as well as supervised models trained directly on the target data.
 
