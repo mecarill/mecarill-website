@@ -35,5 +35,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: view: community/compact_custom #2
+  view: community/compact_custom #2
 ---
