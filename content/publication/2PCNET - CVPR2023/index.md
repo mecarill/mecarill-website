@@ -1,5 +1,5 @@
 ---
-title: '2PCNET: '
+title: '2PCNet: Two-Phase Consistency Training for Day-to-Night Unsupervised Domain Adaptive Object'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -7,7 +7,7 @@ title: '2PCNET: '
 authors:
   - admin
   - Wang Jian-Gang
-  - BV
+  - Bharadwaj Veeravalli
   - Robby Tan
 
 # Author notes (optional)
@@ -67,15 +67,16 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+
+#projects:
+#  - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+#slides: example
 ---
 
 {{% callout note %}}
