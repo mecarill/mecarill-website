@@ -13,11 +13,20 @@ weight: 90
 
 title: Activities
 subtitle: ''
-
+content:
+  # Filter on criteria
+  filters:
+    folders:
+      - nth
 design:
   # Choose a view for the listings:
   view: citation
   columns: '2'
 ---
 
-Teaching something somethig
+Teaching:
+- EE4701 
+- CEG5709/ EE6901
+
+Reviewer:
+- ICCV'23
