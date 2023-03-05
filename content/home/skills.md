@@ -18,7 +18,7 @@ subtitle:
 feature:
   - description: Python, PyTorch, MATLAB
     icon: code
-    icon_pack: fa-solid
+    icon_pack: fa
     name: Programming
   - description: Domain Adaptation, Semi-Supervised
     icon: eye
