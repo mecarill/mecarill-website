@@ -18,15 +18,15 @@ subtitle:
 feature:
   - description: Python, PyTorch, MATLAB
     icon: code
-    icon_pack: fas
+    icon_pack: fa
     name: Programming
   - description: Domain Adaptation, Semi-Supervised, Imbalanced Classes
     icon: fa-eye
-    icon_pack: fas
+    icon_pack: fa
     name: Computer Vision
   - description: Mendaki Club
     icon: fa-handshape-angle
-    icon_pack: fas
+    icon_pack: fa
     name: Volunteering
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
