@@ -18,13 +18,13 @@ subtitle:
 feature:
   - description: Python, PyTorch, MATLAB
     icon: code
-    icon_pack: fa
+    icon_pack: fa-solid
     name: Programming
-  - description: Domain Adaptation, Semi-Supervised, Imbalanced Classes
+  - description: Domain Adaptation, Semi-Supervised
     icon: eye
     icon_pack: fa
     name: Computer Vision
-  - description: Mendaki Club
+  - description: Mendaki Club, EXPLORE
     icon: handshake-angle
     icon_pack: fa
     name: Volunteering
