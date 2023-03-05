@@ -21,11 +21,11 @@ feature:
     icon_pack: fa
     name: Programming
   - description: Domain Adaptation, Semi-Supervised, Imbalanced Classes
-    icon: fa-eye
+    icon: eye
     icon_pack: fa
     name: Computer Vision
   - description: Mendaki Club
-    icon: fa-handshape-angle
+    icon: handshake-angle
     icon_pack: fa
     name: Volunteering
 # Uncomment to use emoji icons.
