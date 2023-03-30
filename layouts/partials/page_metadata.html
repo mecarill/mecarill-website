@@ -11,7 +11,7 @@
     {{ partial "page_metadata_authors" $page }}
   </div>
   <div>
-  {{ .Params.publication | markdownify }}
+  <span>{{ .Params.publication | markdownify }}</span>
   </div>
   {{ end }}
   {{ end }}
@@ -26,7 +26,10 @@
           {{ i18n "last_updated" }}
       {{ end }}
     {{ end }}
+    {{ if eq $page.Type "publication" }}
+    {{else}}
     {{ $date }}
+    {{ end }}
   </span>
   {{ end }}
 
