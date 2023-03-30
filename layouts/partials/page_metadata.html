@@ -24,7 +24,7 @@
       {{ end }}
     {{ end }}
     {{ if eq $page.Type "publication" }}
-      {{ .Params.publication | markdownify }}
+      <div class="col-12 col-md-9">{{ .Params.publication | markdownify }}</div>
     {{ else }}
       {{ $date }}
     {{ end }}
