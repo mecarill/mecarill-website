@@ -24,9 +24,6 @@ design:
   columns: '2'
 ---
 
-Teaching:
+Teaching Assistant:
 - EE4701 
 - CEG5709/ EE6901
-
-Reviewer:
-- ICCV'23
