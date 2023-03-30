@@ -8,14 +8,14 @@ authors:
   - admin
   - Wang Jian-Gang
   - Bharadwaj Veeravalli
-  - Robby Tan
+  - Robby T. Tan
 
 # Author notes (optional)
 #author_notes:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: '2023-07-01T00:00:00Z'
+date: '2023-07-018T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -31,7 +31,7 @@ publication_types: ['1']
 publication:  The Conference on Computer Vision and Pattern Recognition (CVPR) 2023
 publication_short: CVPR (2023)
 
-abstract: Object detection at night is a challenging problem, particularly when the night image annotations are not assumed to be available. A few domain adaptation methods attempt to address the problem, and achieve state-of-the-art results by using the student-teacher framework. Unfortunately, these methods still suffer from false-positive error propagation stemming from the teacher’s wrong predictions, particularly for small scale objects and objects in low-light regions. To address this problem, we present 2PCNet, a twophase consistency unsupervised domain adaptation (UDA) network for nighttime object detection. Our 2PCNet employs high-confidence bounding-box predictions from the teacher in the first phase, and appends them to the student’s region proposals to be reevaluated by the teacher in the second phase, ensuring a mix of high and low confidence pseudo-labels. Night images and pseudo-labels are further scaled-down when used as an input to the student. This allows the student to have stronger small-scale pseudo-labels from the teacher, since the teacher generates the predictions based on the original full-scale image. Moreover, to mitigate errors stemming from objects in low-light regions and other night related attributes, we propose NightAug, which provides random night specific augmentations to the labelled daytime images, so that they can be closer to night images. Night specific augmentations include the addition of glare, blur, and noise to mimic the conditions of night images. Experiments on the publicly available BDD100K and SHIFT datasets demonstrate that our method achieves superior results to the state-of-the-art (+20%) as well as supervised models trained directly on the target data.
+abstract: Object detection at night is a challenging problem due to the absence of night image annotations. Despite several domain adaptation methods, achieving high-precision results remains an issue. False-positive error propagation is still observed in methods using the well-established student-teacher framework, particularly for small-scale and low-light objects. This paper proposes a two-phase consistency unsupervised domain adaptation network, 2PCNet, to address these issues. The network employs high-confidence bounding-box predictions from the teacher in the first phase and appends them to the student's region proposals for the teacher to re-evaluate in the second phase, resulting in a combination of high and low confidence pseudo-labels. The night images and pseudo-labels are scaled-down before being used as input to the student, providing stronger small-scale pseudo-labels. To address errors that arise from low-light regions and other night-related attributes in images, we propose a night-specific augmentation pipeline called NightAug. This pipeline involves applying random augmentations, such as glare, blur, and noise, to daytime images. Experiments on publicly available datasets demonstrate that our method achieves superior results to state-of-the-art methods by 20\%, and to supervised models trained directly on the target data.
 
 # Summary. An optional shortened abstract.
 summary: 
@@ -46,8 +46,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/abs/2303.13853'
+url_code: 'https://github.com/mecarill/2pcnet'
 url_dataset: ''
 url_poster: ''
 url_project: ''
