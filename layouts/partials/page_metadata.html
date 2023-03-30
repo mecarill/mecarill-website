@@ -23,11 +23,8 @@
           {{ i18n "last_updated" }}
       {{ end }}
     {{ end }}
-    {{ if eq $page.Type "publication" }}
-      <div class="col-12 col-md-9">{{ .Params.publication | markdownify }}</div>
-    {{ else }}
-      {{ $date }}
-    {{ end }}
+    {{ $date }}
+
   </span>
   {{ end }}
 
