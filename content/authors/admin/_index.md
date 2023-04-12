@@ -52,7 +52,7 @@ social:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/
+    link: https://scholar.google.com/citations?user=utycMlgAAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/mecarill
@@ -74,4 +74,6 @@ email: ''
 highlight_name: true
 ---
 
-I am currently a PhD student in the National University of Singapore under the supervision of Professor Robby Tan . I obtained my Bachelors of Engineering (Mechatronics) from Singapore Institute of Technology/University of Glasgow in 2017 and a Masters of Technology (Intelligent Systems) from NUS-ISS in 2022. My research interest is in Computer Vision, with a focus on vision in adverse conditions such as night-time and rain.
+Hello, my name is Mikhail. I'm currently a 2nd year PhD student working on high-level Computer Vision at the [National University of Singapore (ECE)](https://cde.nus.edu.sg/ece/) under the supervision of [Prof. Robby Tan](https://tanrobby.github.io/). My research revolves around domain adaptation and imbalanced classes, mainly in nighttime scenes. I'm also affliated with [I2R, A*STAR](https://www.a-star.edu.sg/i2r) under the supervision of [Dr. Wang Jian-Gang](https://scholar.google.com.sg/citations?user=kt0nCB0AAAAJ&hl=en).
+
+Looking forward to meet like-minded researchers in various fields so don't hesitate to get in touch via any of my socials!
