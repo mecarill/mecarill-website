@@ -74,6 +74,8 @@ email: ''
 highlight_name: true
 ---
 
-Hello, my name is Mikhail. I'm currently a 2nd year PhD student working on high-level Computer Vision at the [National University of Singapore (ECE)](https://cde.nus.edu.sg/ece/) under the supervision of [Prof. Robby Tan](https://tanrobby.github.io/). My research revolves around domain adaptation and imbalanced classes, mainly in nighttime scenes. I'm also affliated with [I2R, A*STAR](https://www.a-star.edu.sg/i2r) under the supervision of [Dr. Wang Jian-Gang](https://scholar.google.com.sg/citations?user=kt0nCB0AAAAJ&hl=en).
+Hello! I'm currently a 2nd year PhD student working on high-level Computer Vision at the [National University of Singapore (ECE)](https://cde.nus.edu.sg/ece/) under the supervision of [Prof. Robby Tan](https://tanrobby.github.io/) and [Prof. Bharadwaj Veeravalli](https://scholar.google.com/citations?user=IqAJttsAAAAJ&hl=en). My research revolves around domain adaptation and imbalanced classes, mainly in nighttime scenes. I'm also affliated with [I2R, A*STAR](https://www.a-star.edu.sg/i2r) under the supervision of [Dr. Wang Jian-Gang](https://scholar.google.com.sg/citations?user=kt0nCB0AAAAJ&hl=en).
 
-Looking forward to meet like-minded researchers in various fields so don't hesitate to get in touch via any of my socials!
+Outside of research, I volunteer with [Mendaki Club](https://www.mendakiclub.org.sg/) leading a series of career-based workshops for youths (aged 14-17) in the Malay/Muslim community. 
+
+Don't hesitate to get in touch!
